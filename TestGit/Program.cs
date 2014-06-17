@@ -14,7 +14,7 @@ namespace TestGit
             Console.WriteLine("Test2");
             Console.WriteLine("Test3");
 
-            Console.WriteLine("Testing, testing, testing");
+            Console.WriteLine("Test Git");
         }
     }
 }
