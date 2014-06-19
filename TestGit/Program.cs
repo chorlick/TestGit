@@ -14,7 +14,7 @@ namespace TestGit
             Console.WriteLine("Test2");
             Console.WriteLine("Test3");
 
-            Console.WriteLine("Test Git");
+            Console.WriteLine("6/19/14");
         }
     }
 }
