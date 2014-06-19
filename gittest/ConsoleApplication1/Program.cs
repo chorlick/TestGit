@@ -8,9 +8,6 @@ using Octokit;
 
 namespace ConsoleApplication1
 {
-
-
-
     class Program
     {
         public async Task<int> followers()
