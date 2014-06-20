@@ -22,7 +22,7 @@ namespace libgit
             {
                 Console.WriteLine("Error :" + e.Message);
             }
-            return 10;
+            return -1;
         }
 
     }

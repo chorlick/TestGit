@@ -10,21 +10,6 @@ namespace ConsoleApplication1
 {
     class Program
     {
-        public async Task<int> followers()
-        {
-            try
-            {
-                var github = new GitHubClient(new ProductHeaderValue("MyAmazingApp"));
-                var user = await github.User.Get("half-ogre");
-                Console.WriteLine(user.Followers + " folks love the half ogre!");
-                
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error :" + e.Message);
-            }
-            return 1;
-        }
 
         static void Main(string[] args)
         {
